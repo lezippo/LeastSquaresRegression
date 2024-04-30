@@ -23,7 +23,7 @@ To solve the least squares problem, we can use linear algebra techniques. We rep
 1. **Matrix Formulation**: Construct the Vandermonde matrix $A$ and the vector $b$ as follows:
    - $A$ is an $n \times (m+1)$ matrix with elements $a_{ij} = x_i^j$.
    - $b$ is an $n \times 1$ vector with elements $b_i = y_i$.
-2. **Solving the System**: Solve the system of linear equations $Ac = b$ for the coefficients vector $c$ using techniques like least squares approximation or matrix inversion.
+2. **Solving the System**: Solve the system of linear equations $Ac = b$ for the coefficients vector $c$
 3. **Polynomial Evaluation**: Once we have the coefficients, we can evaluate the polynomial function $f(x)$ at any point $x$.
 
 ## Degree Selection
