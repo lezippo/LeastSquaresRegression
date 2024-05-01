@@ -2,6 +2,15 @@
 
 The least squares polynomial approximation is a method for finding a polynomial function that best fits a set of data points by minimizing the sum of the squares of the differences between the actual data points and the corresponding points on the polynomial curve.
 
+1. [Theory](#theory)
+- [Problem Statement](#problem-statement)
+- [Polynomial Formulation](#polynomial-formulation)
+- [Least Squares Criterion](#least-squares-criterion)
+- [Solving the Least Squares Problem](#solving-the-least-squares-problem)
+- [Degree Selection](#degree-selection)
+2. [Code Structure](#code-structure)
+- [myls](#myls)
+
 # Theory
 
 ## Problem Statement
@@ -46,5 +55,3 @@ Determine coefficients of the least squares polynomial approximation to data.
 
 ### Output
 - `coeff` (vector): The coefficients of the least squares polynomial approximation.
-
-# Examples
