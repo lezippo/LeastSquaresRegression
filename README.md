@@ -2,6 +2,8 @@
 
 The least squares polynomial approximation is a method for finding a polynomial function that best fits a set of data points by minimizing the sum of the squares of the differences between the actual data points and the corresponding points on the polynomial curve.
 
+# Theory
+
 ## Problem Statement
 
 Given a set of $n$ data points $(x_i, y_i)$, we want to find a polynomial function of degree $m$ that best fits the data in the least squares sense.
@@ -29,3 +31,9 @@ To solve the least squares problem, we can use linear algebra techniques. We rep
 ## Degree Selection
 
 The choice of polynomial degree $m$ depends on the characteristics of the data and the desired trade-off between bias and variance. Higher-degree polynomials can capture more complex patterns but may also lead to overfitting.
+
+# Code structure
+
+## myls
+
+# Examples
