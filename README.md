@@ -36,4 +36,15 @@ The choice of polynomial degree $m$ depends on the characteristics of the data a
 
 ## myls
 
+### Purpose
+Determine coefficients of the least squares polynomial approximation to data.
+
+### Input
+- `xdata` (vector): The vector containing the x-values of the data points.
+- `ydata` (vector): The vector containing the y-values of the data points.
+- `w` (integer): The degree of the polynomial.
+
+### Output
+- `coeff` (vector): The coefficients of the least squares polynomial approximation.
+
 # Examples
